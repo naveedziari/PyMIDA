@@ -1,6 +1,10 @@
 import numpy as np 
 
 def binnings(items, bins, cache={}):
+    '''
+    code obtained from:
+    https://stackoverflow.com/questions/6750298/efficient-item-binning-algorithm-itertools-numpy
+    '''  
     if items == 0: 
         return np.zeros((1, bins), dtype=np.int32)
     if bins == 0: 
