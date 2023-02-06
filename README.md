@@ -38,11 +38,10 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 
 <img src="https://user-images.githubusercontent.com/14845065/152647318-79157d76-94f5-4962-a4df-d3c35db8291a.jpg" alt="drawing" width="384"/>
 
-# Calculation of f **fraction newly synthesized** and FSR 
+# Calculation of f 
 
 After inputting all the parameters above, clicking on **Calculate f** will open a new window:
 
-
-
+<img width="637" alt="calculate_f_screenshot" src="https://user-images.githubusercontent.com/14845065/216902043-41a5d880-b143-4376-b271-0ba5a30d1cc9.png">
 
 
