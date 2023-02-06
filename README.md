@@ -34,9 +34,12 @@ For generation of the MIDA table, user can choose to copy to a clipboard to past
 
 <img src="https://user-images.githubusercontent.com/14845065/152647299-d9c993fe-55ad-4fb5-8928-9c7b165f0784.jpg" alt="drawing" width="384"/>
 
-
 In addition, if the user wants to analyze a peptide, then under the `windows` tab select `Proteomics` to be prompted with a window to enter the peptide amino acid sequence:
 
 <img src="https://user-images.githubusercontent.com/14845065/152647318-79157d76-94f5-4962-a4df-d3c35db8291a.jpg" alt="drawing" width="384"/>
+
+# Calculation of $f$ and FSR
+
+
 
 
