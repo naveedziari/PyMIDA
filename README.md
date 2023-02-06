@@ -37,10 +37,16 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 
 <img src="https://user-images.githubusercontent.com/14845065/152647318-79157d76-94f5-4962-a4df-d3c35db8291a.jpg" alt="drawing" width="384"/>
 
-# Calculation of f 
+# Calculation of fractional synthesis rate
 
 After inputting all the parameters above, clicking on **Calculate f** will open a new window:
 
-<img width="384" alt="calculate_f_screenshot" src="https://user-images.githubusercontent.com/14845065/216902043-41a5d880-b143-4376-b271-0ba5a30d1cc9.png">
+<img width="384" alt="calculate_f_screenshot" src="https://user-images.githubusercontent.com/14845065/216907311-f9212808-24b7-4aa1-b35e-349f1fc01c1f.png">
 
+The user must first input the values for $f$ (fraction newly synthesized), otherwise FSR cannot be calculated. 
+* Choice of mass isotopomer with which to calculate $f$.
+* Fractional abundance of the user-specified mass isotopomer (enrichment automatically calculated by software)
+* Click on **Calculate f** to display $f$. ****Proceed with steps below to calculate FSR
+* Input the timepoint at which the measurement was taken, with time point zero being the start of labeling. 
+* Click on **Calculate FSR** to display the fractional synthesis rate.
 
