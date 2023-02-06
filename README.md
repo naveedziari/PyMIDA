@@ -46,7 +46,7 @@ After inputting all the parameters above, clicking on **Calculate f** will open 
 The user must first input the values for $f$ (fraction newly synthesized), otherwise FSR cannot be calculated. 
 * Choice of mass isotopomer with which to calculate $f$.
 * Fractional abundance of the user-specified mass isotopomer (enrichment automatically calculated by software)
-* Click on **Calculate f** to display $f$. ****Proceed with steps below to calculate FSR
+* Click on **Calculate f** to display $f$. *Proceed with steps below to calculate FSR*
 * Input the timepoint at which the measurement was taken, with time point zero being the start of labeling. 
 * Click on **Calculate FSR** to display the fractional synthesis rate.
 
