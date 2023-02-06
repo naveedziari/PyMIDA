@@ -40,6 +40,9 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 
 # Calculation of $f$ and FSR
 
+After inputting all the parameters above, clicking on **Calculate f** will open a new window:
+
+
 
 
 
