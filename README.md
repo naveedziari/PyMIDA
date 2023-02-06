@@ -14,8 +14,7 @@ This package requires Python 3.x and has the following codependencies:
 
 To run the program,  download the `isotopomer` folder, go to its directory in the command line and run `python isotopomer` (or whatever command is used to invoke Python 3.x). This window will pop up:
 
-
-<img src="https://user-images.githubusercontent.com/14845065/152647228-c302a435-e00f-47b2-8d94-79bae1a2b8d0.jpg" alt="drawing" width="384"/>
+<img width="512" alt="pymida_screenshot" src="https://user-images.githubusercontent.com/14845065/216902299-6c02b6bc-a440-422b-b350-a5d0dd5dad56.png">
 
 
 # Parameters
