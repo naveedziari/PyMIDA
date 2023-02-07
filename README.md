@@ -12,7 +12,7 @@ This package requires Python 3.x and has the following codependencies:
 * pandas
 * PyQT5
 
-To run the program,  download the `isotopomer` folder, go to its directory in the command line and run `python isotopomer` (or whatever command is used to invoke Python 3.x). This window will pop up:
+To run the program,  download the `isotopomer` folder, go to its directory in the command line and run `python pymida` (or whatever command is used to invoke Python 3.x). This window will pop up:
 
 <img width="512" alt="pymida_screenshot" src="https://user-images.githubusercontent.com/14845065/216902299-6c02b6bc-a440-422b-b350-a5d0dd5dad56.png">
 
