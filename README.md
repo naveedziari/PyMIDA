@@ -4,6 +4,8 @@ PyMIDA is a graphical user interface python package that allows users to perform
 
 This program can calculate the fraction of newly synthesized molecules, the turnover rate of polymers, the isotopic enrichment of the precursor pool, and the number of atoms that are replaced or exchanged during metabolic processes. 
 
+NOTE: this program was tested on Windows using Python 3.9.6. Please report any bugs or malfunctions to (mailto:naveedziari@berkeley.edu)
+
 # Installation and Requirements
 
 This package requires Python 3.x and has the following codependencies:
