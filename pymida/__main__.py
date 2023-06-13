@@ -82,8 +82,8 @@ class Peptide(QtWidgets.QMainWindow):
 		formula = self.get_formula(self.get_peptide_seq(),self.df)
 		self.main_window.h_input.setText(str(formula[0]))
 		self.main_window.c_input.setText(str(formula[1]))
-		self.main_window.o_input.setText(str(formula[2]))
-		self.main_window.n_input.setText(str(formula[3]))
+		self.main_window.n_input.setText(str(formula[2]))
+		self.main_window.o_input.setText(str(formula[3]))
 		self.main_window.s_input.setText(str(formula[4]))
 
 
@@ -97,6 +97,7 @@ class Peptide(QtWidgets.QMainWindow):
 		for aa in seq:
 			n += int(df['n'].iloc[np.where(df['AA'] == aa)[0][0]])
 
+		print(n)
 		return n
 
 	def get_formula(self,seq,df):
@@ -112,6 +113,7 @@ class Peptide(QtWidgets.QMainWindow):
 		formula_dict['H'] -= 2*num_water
 		formula_dict['O'] -= num_water
 
+		print(formula_dict)
 		return [formula_dict[element] for element in list(formula_dict.keys())]
 
 
