@@ -16,7 +16,7 @@ This package requires Python 3.x and has the following codependencies:
 
 To run the program,  download the `pymida` folder, go to its directory in the command line and run `python pymida` (or whatever command is used to invoke Python 3.x). This window will pop up:
 
-<img width="512" alt="pymida_screenshot" src="https://user-images.githubusercontent.com/14845065/216902299-6c02b6bc-a440-422b-b350-a5d0dd5dad56.png">
+<img width="512" alt="pymida_screenshot" src="https://github.com/naveedziari/PyMIDA/assets/14845065/ae468725-b558-4c81-b72c-85b691831534">
 
 
 # Parameters
@@ -38,6 +38,15 @@ For generation of the MIDA table, user can choose to copy to a clipboard to past
 In addition, if the user wants to analyze a peptide, then under the `windows` tab select `Proteomics` to be prompted with a window to enter the peptide amino acid sequence:
 
 <img src="https://user-images.githubusercontent.com/14845065/152647318-79157d76-94f5-4962-a4df-d3c35db8291a.jpg" alt="drawing" width="384"/>
+
+# Calculation of isotopic enrichment and fractional synthesis rate.
+
+* The user may also input experimentally derived fractional abundances into the fields labeled **M0-M4**. At minimum M0-M2 must be populated, and the number of isotopomers specified above must match the number inputted here. 
+* Then click on **Calculate MIDA p** and a window will pop up displaying the isotopic enrichment of the precursor pool. This step is necessary in order to calculate $f$.
+* After calculating $p$, clicking on **Calculate f** will open up a new window whereby the user can select the mass isotopomer with which to calculate $f$. 
+*Proceed with steps below to calculate FSR*
+* Input the timepoint at which the measurement was taken, with time point zero being the start of labeling. 
+* Click on **Calculate FSR** to display the fractional synthesis rate.
 
 # Calculation of fractional synthesis rate
 
