@@ -47,17 +47,8 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 *Proceed with steps below to calculate FSR*
 * Input the timepoint at which the measurement was taken, with time point zero being the start of labeling. 
 * Click on **Calculate FSR** to display the fractional synthesis rate.
+* 
+<img width="635" alt="fraction_screenshot" src="https://github.com/naveedziari/PyMIDA/assets/14845065/721d8b07-4eaf-42d6-87ef-dd416a5889a1">
 
-# Calculation of fractional synthesis rate
 
-After inputting all the parameters above, clicking on **Calculate f** will open a new window:
-
-<img width="384" alt="calculate_f_screenshot" src="https://user-images.githubusercontent.com/14845065/216907311-f9212808-24b7-4aa1-b35e-349f1fc01c1f.png">
-
-The user must first input the values for $f$ (fraction newly synthesized), otherwise FSR cannot be calculated. 
-* Choice of mass isotopomer with which to calculate $f$.
-* Fractional abundance of the user-specified mass isotopomer (enrichment automatically calculated by software)
-* Click on **Calculate f** to display $f$. *Proceed with steps below to calculate FSR*
-* Input the timepoint at which the measurement was taken, with time point zero being the start of labeling. 
-* Click on **Calculate FSR** to display the fractional synthesis rate.
 
