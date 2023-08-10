@@ -52,9 +52,17 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 
 # MIDA algorithm 
 
-Users can incorporate the implementation of the MIDA algorithm included in this software into other scripting routines to batch process data. The command `from mida_alg import Abundance` will allow the user to instantiate an object from which to extract isotopic distributions. Its parameters are the chemical formula,  number of labile bonds $n$ (`num_labile`), isotopic enrichment $p$, and element of added label. 
+Users can incorporate the implementation of the MIDA algorithm included in this software into other scripting routines to batch process data. In the same directory as the folder `MIDA_algorithm`, the command `from mida_alg import Abundance` will allow the user to instantiate an object from which to extract isotopic distributions. Its parameters are the chemical formula,  number of labile bonds $n$ (`num_labile`), isotopic enrichment $p$, and element of added label. 
 
-For example, the code below calculates enrichments from glutamate where $n=4$ and $p = 0.064$
+For example, the code below calculates enrichments from glutamate where $n=4$ and $p = 0.064$, normalized to mass isotopomers M0-M2.
+
+'''
+formula = 'C5H9NO4'
+
+
+'''
+
+
 
 
 
