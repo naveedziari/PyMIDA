@@ -54,13 +54,35 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 
 Users can incorporate the implementation of the MIDA algorithm included in this software into other scripting routines to batch process data. In the same directory as the folder `MIDA_algorithm`, the command `from mida_alg import Abundance` will allow the user to instantiate an object from which to extract isotopic distributions. Its parameters are the chemical formula,  number of labile bonds $n$ (`num_labile`), isotopic enrichment $p$, and element of added label. 
 
-For example, the code below calculates enrichments from glutamate where $n=4$ and $p = 0.064$, normalized to mass isotopomers M0-M2.
+For example, the code below calculates asymptotic enrichments from glutamate labeled with heavy water where $n=4$ and $p = 0.064$, normalized to mass isotopomers M0-M2.
 
-'''
+```
+import numpy as np
+import pandas as pd
+
+import chemparse
+
+from mida_alg import Abundance
+from correction import normalization
+
+
 formula = 'C5H9NO4'
+p_measured = 0.061
 
+formula_dict = chemparse.parse_formula(formula)
+formula_input = list(formula_dict.values())
 
-'''
+labaled_obj = Abundance(formula_input, num_labile = 4, p = p_measured)
+labeled_mid = labeled_obj.get_MID()[0][:3]
+labeled_abundance = normalization(nat_abd_mid)
+
+nat_abd_obj = Abundance(formula_input)
+nat_abd_mid = nat_abd_obj.get_MID()[0][:3]
+natural_abundance = normalization(nat_abd_mid)
+
+enrichments = labeled_abundance - natural_abundance
+
+```
 
 
 
