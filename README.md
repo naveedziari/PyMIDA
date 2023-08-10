@@ -50,5 +50,11 @@ In addition, if the user wants to analyze a peptide, then under the `windows` ta
 * 
 <img width="635" alt="fraction_screenshot" src="https://github.com/naveedziari/PyMIDA/assets/14845065/721d8b07-4eaf-42d6-87ef-dd416a5889a1">
 
+# MIDA algorithm 
+
+Users can incorporate the implementation of the MIDA algorithm included in this software into other scripting routines to batch process data. The command 'from mida_alg import Abundance' will allow the user to instantiate an object from which to extract isotopic distributions. Its parameters are the chemical formula,  number of labile bonds ('num_labile'), isotopic enrichment $p$, and element of added label. 
+
+For example, the code below calculates enrichments from glutamate where $n=4$ and $p = 0.064$
+
 
 
